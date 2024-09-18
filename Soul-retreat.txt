@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Retreats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: url('header-image.jpg') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        nav {
+            background: #fff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .content p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .grid img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yoga Retreats</h1>
+    <p>Rejuvenate your body and soul in a serene environment</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#travel">Travel Information</a>
+    <a href="#venue">Venue</a>
+    <a href="#programme">Programme</a>
+    <a href="#inspiration">Inspiration</a>
+    <a href="#reviews">Experiences & Reviews</a>
+</nav>
+
+<section id="about">
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Welcome to my yoga retreats! My name is [Your Name], and I am a certified yoga instructor with over 10 years of experience. My journey with yoga began as a way to find balance in a busy world, and it has transformed into a passion that I love to share with others. My retreats are designed to provide a peaceful and rejuvenating experience, blending the beauty of nature with the tranquility of yoga practice.</p>
+    </div>
+</section>
+
+<section id="travel">
+    <div class="content">
+        <h2>Travel Information</h2>
+        <p>Our retreats are located in the stunning [Location], easily accessible by plane, ferry, or car. Upon arrival, you will be greeted by the serene landscapes and the calming atmosphere of our venue. We recommend booking your travel arrangements early to ensure availability. Shuttle services from the nearest airport can be arranged upon request.</p>
+    </div>
+</section>
+
+<section id="venue">
+    <div class="content">
+        <h2>The Venue</h2>
+        <p>Nestled in a tranquil setting, our venue embodies the essence of Ibiza and Nordic design. Think light, airy spaces with white walls, sandy tones, and natural materials like wood and reed. The architecture and interior design create a perfect blend of simplicity and luxury, offering an ideal environment for yoga practice and relaxation.</p>
+        <div class="grid">
+            <img src="venue1.jpg" alt="Venue 1">
+            <img src="venue2.jpg" alt="Venue 2">
+            <img src="venue3.jpg" alt="Venue 3">
+        </div>
+    </div>
+</section>
+
+<section id="programme">
+    <div class="content">
+        <h2>Programme</h2>
+        <p>Our retreats offer a carefully curated programme designed to relax and rejuvenate. Each day begins with a morning yoga session, followed by a healthy breakfast. Afternoons include workshops, free time for exploration, or simply relaxing by the pool. Evening sessions wind down the day with restorative yoga or meditation, and we close the day with a nourishing dinner.</p>
+    </div>
+</section>
+
+<section id="inspiration">
+    <div class="content">
+        <h2>Inspiration</h2>
+        <p>"The quieter you become, the more you are able to hear." - Rumi</p>
+        <p>Our retreats are inspired by the belief that true relaxation comes from within. By disconnecting from the hustle and bustle of daily life, we create space to reconnect with ourselves. The serene surroundings, combined with the practice of yoga, help to cultivate a deep sense of peace and clarity.</p>
+    </div>
+</section>
+
+<section id="reviews">
+    <div class="content">
+        <h2>Experiences & Reviews</h2>
+        <p>"This retreat was life-changing. The location, the yoga sessions, and the overall atmosphere were just perfect. I left feeling renewed and inspired." - [Participant Name]</p>
+        <p>"A truly magical experience! The venue was stunning, and the programme was thoughtfully designed. I can't wait to return." - [Participant Name]</p>
+        <div class="grid">
+            <img src="review1.jpg" alt="Experience 1">
+            <img src="review2.jpg" alt="Experience 2">
+            <img src="review3.jpg" alt="Experience 3">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Yoga Retreats. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
