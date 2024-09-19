@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Retreats</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav h1 {
+            font-size: 24px;
+            color: #8b572a;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #8b572a;
+            font-size: 18px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('images/sandy-beach.jpg'); /* Change this with your uploaded image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+            font-weight: 300;
+        }
+
+        .hero button {
+            background-color: #8b572a;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #a96b3b;
+        }
+
+        /* About Section */
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 36px;
+            color: #8b572a;
+            margin-bottom: 30px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        /* Venue Section */
+        #venue {
+            background-color: #fff3e0;
+            padding: 60px 20px;
+        }
+
+        #venue .grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        #venue img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Reviews Section */
+        .reviews {
+            background-color: #f4f4f4;
+            padding: 60px 20px;
+            color: #333;
+        }
+
+        .review-box {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #ffffff;
+            padding: 30px;
+            text-align: center;
+            font-size: 16px;
+            color: #8b572a;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>Soul Retreats</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Yoga Retreats</h1>
+        <p>Rejuvenate your body and soul in a serene environment</p>
+        <button>Join Us</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Soul Retreats</h2>
+        <p>At Soul Retreats, we believe in the power of nature, wellness, and connection. Join us for a rejuvenating experience where you can realign your body, mind, and spirit.</p>
+    </section>
+
+    <!-- Venue Section -->
+    <section id="venue">
+        <h2>The Venue</h2>
+        <div class="grid">
+            <img src="images/venue1.jpg" alt="Venue 1">
+            <img src="images/venue2.jpg" alt="Venue 2">
+            <img src="images/venue3.jpg" alt="Venue 3">
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program">
+        <h2>Our Program</h2>
+        <p>Our yoga retreats are designed to offer a balance of physical activity, relaxation, and spiritual awakening. Whether you are new to yoga or an experienced practitioner, you’ll find our program enriching and uplifting.</p>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <h2>What People Are Saying</h2>
+        <div class="review-box">
+            <p>"This retreat was life-changing. The venue was breathtaking, and the experience was transformational." – Jane Doe</p>
+        </div>
+        <div class="review-box">
+            <p>"I felt completely rejuvenated after spending a week at Soul Retreats. The perfect blend of yoga, nature, and relaxation." – John Smith</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Soul Retreats | Designed with love and tranquility</p>
+    </footer>
+
+</body>
+</html>
