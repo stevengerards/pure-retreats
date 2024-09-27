@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0">
 <title>Pure Retreats</title>
 <!-- Font Awesome for Instagram icon and hamburger menu -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -68,6 +68,7 @@
 
             nav ul li {
                 margin: 15px 0;
+                text-align: center;
             }
 
             nav ul.active {
@@ -175,6 +176,12 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
+        @media (max-width: 768px) {
+            #venue .grid {
+                flex-direction: column; /* Stack images vertically on mobile */
+            }
+        }
+
         /* Reviews Section */
         .reviews {
             background-color: #f4f4f4;
@@ -210,6 +217,31 @@
         footer a:hover {
             color: #7e7b52;
         }
+
+        /* Mobile adjustments for text and layout */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .hero button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+
+            section h2 {
+                font-size: 28px;
+            }
+
+            section p {
+                font-size: 16px;
+            }
+        }
+
 </style>
 </head>
 <body>
@@ -242,8 +274,7 @@
 <!-- About Section -->
 <section id="about">
     <h2>Over Pure Retreats</h2>
-    <p>Ben je op zoek naar een plek om jezelf op te laden en volledig tot rust te komen? Bij Pure Retreats staat liefdevolle aandacht en het vergroten van je bewustzijn centraal. Kom in verbinding met jezelf door middel van  yoga, meditatie, energie- en ademwerk. Hier geniet je van gezonde, smaakvolle maaltijden en verblijf je op een adembenemende locatie, midden in de natuur. Een plek die een lust is voor het oog en je uitnodigt om even helemaal los te laten en jezelf te verwennen. Kom, en ervaar de diepe rust en vernieuwing die Pure Retreats te bieden heeft.
-    </p>
+    <p>Ben je op zoek naar een plek om jezelf op te laden en volledig tot rust te komen? Bij Pure Retreats staat liefdevolle aandacht en het vergroten van je bewustzijn centraal. Kom in verbinding met jezelf door middel van yoga, meditatie, energie- en ademwerk. Hier geniet je van gezonde, smaakvolle maaltijden en verblijf je op een adembenemende locatie, midden in de natuur. Een plek die een lust is voor het oog en je uitnodigt om even helemaal los te laten en jezelf te verwennen. Kom, en ervaar de diepe rust en vernieuwing die Pure Retreats te bieden heeft.</p>
 </section>
 
 <!-- Venue Section -->
@@ -259,16 +290,16 @@
 <!-- Program Section -->
 <section id="program">
     <h2>Wat kan je verwachten</h2>
-    <p>- Verblijf 5 dagen (4 nachten) in Boutique hotel 
-    <p>-Transfer van en naar de luchthaven 
-    Natuurwandelingen
-    Een heerlijke massage (60 min)
-    Yoga & meditatiesessies op het strand (geschikt voor elk niveau)
-    Breathworksessie
-    Ijsbad
-    Cacao ceremonie
-    Gezonde en heerlijke maaltijden (brunch en diner) met liefde bereid
-    Genoeg me time om echt even met jezelf te zijn</p>
+    <p>- Verblijf 5 dagen (4 nachten) in Boutique hotel</p>
+    <p>- Transfer van en naar de luchthaven</p>
+    <p>- Natuurwandelingen</p>
+    <p>- Een heerlijke massage (60 min)</p>
+    <p>- Yoga & meditatiesessies op het strand (geschikt voor elk niveau)</p>
+    <p>- Breathworksessie</p>
+    <p>- Ijsbad</p>
+    <p>- Cacao ceremonie</p>
+    <p>- Gezonde en heerlijke maaltijden (brunch en diner) met liefde bereid</p>
+    <p>- Genoeg me time om echt even met jezelf te zijn</p>
 </section>
 
 <!-- Reviews Section -->
@@ -279,17 +310,25 @@
     </div>
     <div class="review-box">
         <p>"Ik voelde me volledig herboren na een week bij Pure Retreats. De perfecte combinatie van yoga, natuur en ontspanning." – John Smith</p>
-</div>
+    </div>
 </section>
 
-    <!-- Footer -->
+<!-- Footer -->
 <footer>
-<p>Volg ons op Instagram:</p>
-<a href="https://instagram.com/yourusername" target="_blank">
-<i class="fab fa-instagram"></i>
-</a>
-<p>© 2024 Pure Retreats | Ontworpen met liefde en rust</p>
+    <p>Volg ons op Instagram:</p>
+    <a href="https://instagram.com/yourusername" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <p>© 2024 Pure Retreats | Ontworpen met liefde en rust</p>
 </footer>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+    }
+</script>
 
 </body>
 </html>
+
