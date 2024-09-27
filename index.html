@@ -18,15 +18,18 @@
         }
 
         /* Navigation Bar */
-        nav {
-            background-color: #ffffff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Keeps the nav bar fixed */
+    top: 0; /* Ensures it's at the top */
+    width: 100%; /* Makes sure the nav bar stretches across the whole width */
+    z-index: 1000; /* Ensures the nav bar stays on top of other content */
+}
         nav img {
             height: 50px; /* Adjust the size of your logo */
         }
