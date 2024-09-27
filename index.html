@@ -74,6 +74,10 @@
             nav ul.active {
                 display: flex; /* Show menu when active */
             }
+
+            nav ul.active li {
+                width: 100%; /* Full width for list items on mobile */
+            }
         }
 
         /* Hamburger icon for mobile */
@@ -325,10 +329,9 @@
 <script>
     function toggleMenu() {
         var menu = document.getElementById("menu");
-        menu.classList.toggle("active");
+        menu.classList.toggle("active"); // Toggles visibility of the menu
     }
 </script>
 
 </body>
 </html>
-
